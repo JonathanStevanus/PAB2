@@ -1,9 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Tambahkan permission NFC ini -->
+     <!-- Tambahkan permission NFC ini -->
     <uses-permission android:name="android.permission.NFC"/>
     <!-- Jika required="true" → Play Store hanya menampilkan app ke device dengan NFC -->
     <uses-feature android:name="android.hardware.nfc" android:required="true" />
+
     <application
         android:label="nfc_reader"
         android:name="${applicationName}"
