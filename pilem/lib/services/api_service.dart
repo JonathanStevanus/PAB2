@@ -31,5 +31,13 @@ class ApiService {
     return List<Map<String, dynamic>>.from(data['results']);
   }
 
-
+  //Fungsi Search
+  Future<List<Map<String, dynamic>>> searchMovies(String query) async {
+    final response = await http.get(
+      Uri.parse("$baseUrl/search/movie?api_key=$apiKey&query=$query"),
+    );
+    final data = json.decode(response.body);
+    return List<Map<String, dynamic>>.from(data['results']);
+  }
 }
+
