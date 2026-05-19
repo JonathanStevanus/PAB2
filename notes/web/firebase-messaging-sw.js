@@ -6,9 +6,9 @@ firebase.initializeApp({
   apiKey: "AIzaSyAN...",
   authDomain: "notes-a62d4.firebaseapp.com",
   projectId: "notes-a62d4",
-  storageBucket: "notes-5be35.firebasestorage.app",
-  messagingSenderId: "1014103626721",
-  appId: "1:1014103626721:web:f3b42914...",
+  storageBucket: "notes-a62d4.firebasestorage.app",
+  messagingSenderId: "645264070961",
+  appId: "1:645264070961:web:f3b42914...",
 });
 
 const messaging = firebase.messaging();
